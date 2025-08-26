@@ -1,0 +1,28 @@
+/* This is where you import Tailwind's core styles.
+   It's essential for Tailwind to work correctly. */
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+   
+   /* Here, we define the animation itself using keyframes.
+     - It starts with an opacity of 0 (completely transparent) and slightly moved down.
+     - It ends with an opacity of 1 (fully visible) and in its final position.
+   */
+   @keyframes fadeIn {
+     from {
+       opacity: 0;
+       transform: translateY(10px);
+     }
+     to {
+       opacity: 1;
+       transform: translateY(0);
+     }
+   }
+   
+   /* Finally, we create a reusable utility class.
+     Any element with the class "animate-fadeIn" will now use the animation we defined above.
+     We set the duration to 0.5s and use an "ease-in-out" timing function for a smooth effect.
+   */
+   .animate-fadeIn {
+     animation: fadeIn 0.5s ease-in-out;
+   }
