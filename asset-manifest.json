@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RouteCraft-CODEXINTERN/static/css/main.a359bf7d.css",
+    "main.js": "/RouteCraft-CODEXINTERN/static/js/main.d9cae3bd.js",
+    "index.html": "/RouteCraft-CODEXINTERN/index.html",
+    "main.a359bf7d.css.map": "/RouteCraft-CODEXINTERN/static/css/main.a359bf7d.css.map",
+    "main.d9cae3bd.js.map": "/RouteCraft-CODEXINTERN/static/js/main.d9cae3bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a359bf7d.css",
+    "static/js/main.d9cae3bd.js"
+  ]
+}
